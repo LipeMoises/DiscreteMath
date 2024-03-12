@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap')
@@ -60,6 +61,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-inline: 30px;
+    font-family: "Didact Gothic";
 }
 
 .sections {
@@ -76,7 +78,7 @@ header {
     justify-content: center;
     align-items: center;
     /* background-color: teal; */
-    font-family: "Josefin Slab";
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .about_list li {
