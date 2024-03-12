@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* importacoes */
 * {
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 #corpinho {
     width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,7 @@
     background-color: black;
     color: white;
 }
+
 #black_a {
     text-align: center;
     height: 50px;
@@ -41,27 +42,28 @@
     transition: all 0.3s ease;
     width: 70px;
 }
+
 #black_a {
     color: black;
     text-decoration-line: none;
     transition: all 0.3s ease;
 }
 
-#black_a:hover{
+#black_a:hover {
     color: white;
     background-color: black;
-    
-    
+
+
 }
-#black_a a:hover {
-}
+
 .about_list a {
     text-decoration-line: none;
 }
+
 body {
 
     margin: auto;
-    width: 80vw;
+    max-width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,8 +177,17 @@ header {
 }
 
 .content_text p {
+    margin-top: 30px;
     font-family: "Jura";
     font-size: 20;
+}
+
+.content_text_about {
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Krona One";
+    font-weight: lighter;
+    width: 100%;
 }
 
 .youtube_video {
@@ -263,4 +274,28 @@ header {
     }
 
 
+    .content_text_about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 3vh;
+        font-family: "Krona One";
+        font-weight: lighter;
+        width: 80vw;
+    }
+
+    .content_text_about h3 {
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: "Krona One";
+        font-weight: lighter;
+    }
+
+    .content_text_about p {
+        margin-top: 30px;
+        font-family: "Jura";
+        font-size: 20px;
+    }
 }
